@@ -1,0 +1,65 @@
+/**********************/
+/*     Statistics     */
+/**********************/
+.counter {
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+// .counter #counter {
+//     margin-bottom: 0.75rem;
+// }
+
+.counter #counter .cell {
+    display: inline-block;
+    // width: 120px;
+    margin-right: 1.75rem;
+    margin-bottom: 3.5rem;
+    margin-left: 2.75rem;
+    vertical-align: top;
+}
+
+.counter #counter .counter-value {
+    color: theme('colors.green.dark');
+    font-weight: 700;
+    font-size: 4.25rem;
+    line-height: 3.75rem;
+    vertical-align: middle;
+}
+
+.counter #counter .counter-info {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    vertical-align: middle;
+    color: theme('colors.gray.DEFAULT');
+}
+
+/*************************/
+/*     Media Queries     */
+/*************************/
+
+/* Min-width 1024px */
+@media (min-width: 1024px) {
+    /* Statistics */
+    .counter {
+        padding-top: 5rem;
+    }
+    /* end of statistics */
+}
+/* end of min-width 1024px */
+
+/* Min-width 1280px */
+@media (min-width: 1280px) {
+    /* Statistics */
+    .counter #counter .cell {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .counter #counter .counter-value {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+    }
+    /* end of statistics */
+}
+/* end of min-width 1200px */
